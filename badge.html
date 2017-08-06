@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>CSS Badge</title>
+<style>
+	.badge {
+		height: 2em;
+		font-size: 0.7em;
+		font-family: "Ubuntu", sans-serif;
+		color: #fafafa;
+		text-shadow: 1px 1px 1px #bbb;
+	}
+	.badge-left {
+		float: left;
+		border-radius: 4px 0 0 4px;
+		background: linear-gradient(#777, #444);
+	}
+	.badge-right {
+		float: left;
+		border-radius: 0 4px 4px 0;
+		background: linear-gradient(#4D8E8E, #2e5555);
+	}
+	.badge p {
+		margin: 0;
+		padding: 0;
+		padding: 0.45em;
+		letter-spacing: 0.1em;
+	}
+	.badge:after {
+		clear: both;
+	}
+</style>
+</head>
+
+<body>
+
+<div class="badge">
+	<div class="badge-left">
+		<p>downloads</p>
+	</div>
+	<div class="badge-right">
+		<p>2.56 M</p>
+	</div>
+</div>
+
+</body>
+
+</html>
